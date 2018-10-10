@@ -27,7 +27,6 @@ export default {
       const mapArcSeries = chart.series.push(new am4maps.MapArcSeries());
       mapArcSeries.mapLines.template.stroke = '#2C4E5F';
       mapArcSeries.mapLines.template.line.controlPointDistance = location.height;
-      mapArcSeries.mapLines.template.line.controlPointPosition = 1;
       mapArcSeries.mapLines.template.strokeWidth = location.thickness;
       mapArcSeries.mapLines.template.opacity = location.opacity;
       mapArcSeries.data = [{
