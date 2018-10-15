@@ -1,6 +1,5 @@
 <template>
-  <div class="map-container" ref="chartDiv">
-  </div>
+  <div class="chart-container" ref="chartDiv" />
 </template>
 
 <script>
@@ -40,7 +39,7 @@ export default {
 </script>
 
 <style lang="scss">
-.map-container {
+.chart-container {
   width: 100%;
   height: 1000px;
 }
